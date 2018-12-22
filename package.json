@@ -1,0 +1,27 @@
+{
+  "name": "winston-transport-blob-storage",
+  "version": "1.0.0",
+  "description": "Winston Transport for Azure Blob Storage",
+  "main": "./lib/winston-transport-blob-storage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hconrad/winston-transport-blob-storage.git"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "azure",
+    "blob",
+    "storage",
+    "log"
+  ],
+  "author": "Hans Conrad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hconrad/winston-transport-blob-storage/issues"
+  },
+  "homepage": "https://github.com/hconrad/winston-transport-blob-storage#readme"
+}
