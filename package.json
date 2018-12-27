@@ -1,0 +1,43 @@
+{
+  "name": "winston-transport-blob-storage",
+  "version": "1.0.0",
+  "description": "Winston Transport for Azure Blob Storage",
+  "main": "./lib/transport-blob-storage.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hconrad/winston-transport-blob-storage.git"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "azure",
+    "blob",
+    "storage",
+    "log"
+  ],
+  "author": "Hans Conrad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hconrad/winston-transport-blob-storage/issues"
+  },
+  "homepage": "https://github.com/hconrad/winston-transport-blob-storage#readme",
+  "dependencies": {
+    "@azure/storage-blob": "10.2.0-preview",
+    "moment": "2.23.0",
+    "winston-transport": "4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "23.6.0"
+  }
+}
