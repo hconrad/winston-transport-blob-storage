@@ -1,6 +1,12 @@
 # Winston Transport for Azure Blob Storage
 
-This simple transport allows log statements to be directly uploaded to Blob Storage
+This simple transport allows log statements to be directly uploaded to Blob Storage. 
+
+Presently the logger will do a daily rolling log file in your specified container.
+
+The log file will be named
+
+`log-YYYY-MM-DD.log`
 
 ## Installation
 
